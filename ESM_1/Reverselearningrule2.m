@@ -1,6 +1,6 @@
 %Animal Cognition
 %%Validation of a Battery of Inhibitory Control Tasks Reveals a Multi-faceted Structure in Non-Human Primates
-%Louise Loyant, Bridget Waller, Jérôme Micheletta, Marine Joly
+%Louise Loyant, Bridget Waller, JÃ©rÃ´me Micheletta, Marine Joly
 %Corresponding author: louise.loyant@port.ac.uk
 
 % --------------------------------- Initialize ---------------------------------
@@ -36,8 +36,8 @@ rng('default'); rng('shuffle');        % Use this with Matlab
 
 
 interTrialInterval = 2;  % Time between two trials, in seconds
-respLimit = 35;            % Time limit for response: passed this, program stops
-maxTrials = 40;
+respLimit = 15;            % Time limit for response: passed this, program stops
+maxTrials = 36;
 
 
 %%% Sound feedback
