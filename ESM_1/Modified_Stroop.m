@@ -1,6 +1,6 @@
 %Animal Cognition
 %%Validation of a Battery of Inhibitory Control Tasks Reveals a Multi-faceted Structure in Non-Human Primates
-%Louise Loyant, Bridget Waller, Jérôme Micheletta, Marine Joly
+%Louise Loyant, Bridget Waller, JÃ©rÃ´me Micheletta, Marine Joly
 %Corresponding author: louise.loyant@port.ac.uk
 
 % --------------------------------- Initialize ---------------------------------
@@ -230,7 +230,7 @@ end
     taps = taps + 1;  % Increment the touch counter
     
     % if the current detected touch is in the target, we're good to go
-     if rectPos(1)-2000 < xClick && xClick < rectPos(3)+2000 && rectPos(2)-2000 < yClick && yClick < rectPos(4)+2000 
+     if rectPos(1)-200 < xClick && xClick < rectPos(3)+200 && rectPos(2)-200 < yClick && yClick < rectPos(4)+200 
       correct = 1;  % Set correctness to 1 to exit the while loop
       
     else
